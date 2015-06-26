@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url('../websiteImages/129ce2e4-4017-4abf-83fb-90d6107d96d9.jpg');
+    background-repeat: no-repeat;
+    background-size: 1365px auto;
+    min-height: 600px;
+    color: white;
+    z-index: 2;
+    margin-bottom: 30px;
+    height: auto;
+}
+form#save-project-name {
+    display: inline-block;
+    margin-left: 65%;
+    margin-top: 30px;
+    z-index: 10;
+}
+input {
+    padding: 3px 10px;
+    border: 0;
+}
+form input[type="submit"] {
+    background: white;
+}
+header ul {
+    width: 68.6%;
+    clear: both;
+    position: relative;
+    color: #fff;
+    background: linear-gradient(#fe9019, #ba3006, #f2560f, #fe9019);
+    font-size: 16px;
+    margin: 25px -20px 20px 194px;
+    padding: 0.5em 20px;
+    text-shadow: 0 -1px #990000, 0 1px #660000;
+    -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+header ul li a {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+header ul li {
+    margin-left: 30%;
+}
+header ul:before,
+header ul:after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    border-top: 10px solid maroon;
+    border-left: 10px solid transparent;
+    background: transparent;
+}
+
+header ul:after {
+    right: 0;
+    left: auto;
+    border-top: 10px solid maroon;
+    border-right: 10px solid transparent;
+}
+
+body > header > ul li {
+    display: inline-block;
+    padding: 10px 5px;
+}
+#wrapper .authentication {
+    background: linear-gradient(298deg, #fe9019, #ba3006, #f2560f, #fe9019);
+    width: 35%;
+    display: inline-block;
+    margin: 150px 30%;
+    padding: 15px;
+}
+
+#wrapper .authentication div {
+    width: 74%;
+    margin: auto;
+    height: 30px;
+}
+
+#wrapper .authentication input {
+    width: 87%;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-left: 25px;
+}
+#wrapper .authentication input#username {
+    background-image: url('../websiteImages/Users-Edit-user-icon_large.png');
+}
+#wrapper .authentication input#email {
+    background-image: url('../websiteImages/Pictogram_Message.png');
+    background-size: 28px 28px;
+    background-position: -3px -2px;
+}
+#wrapper .authentication input#password {
+    background-image: url('../websiteImages/key-512.png');
+    background-size: 18px 18px;
+    background-position-y: 2px;
+}
+#wrapper .authentication input#rep-password {
+    background-image: url('../websiteImages/key-512.png');
+    background-size: 18px 18px;
+    background-position-y: 2px;
+}
+#wrapper .authentication input::-webkit-input-placeholder { /* WebKit browsers */
+    color: black;
+}
+#wrapper .authentication input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: black;
+}
+#wrapper .authentication input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: black;
+}
+#wrapper .authentication input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: black;
+}
+#wrapper .authentication input[type="submit"] {
+    background: white;
+    color: #fe9019;
+    border: 0;
+    padding: 2px;
+    height: 25px;
+    width: 200px;
+    margin-left: 21px;
+}
+#portfolio, #portfolio > ul li, img {
+    width: 480px;
+    height: 260px;
+}
+
+
+
+#wrapper {
+    background: #272727;
+    width: 70%;
+    margin: auto;
+    height: auto;
+    padding-bottom: 30px;
+    opacity: 0.9;
+    margin: -20px 205px;
+    margin-bottom: -10px;
+}
+#portfolio > ul li {
+     display: inline-block;
+     float: left;
+ }
+#left-button, #right-button {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-top: 240px;
+    margin-left: 25px;
+    z-index: 10;
+}
+#right-button {
+    margin-left: 630px;
+}
+#make-directory, #make-portfolio {
+    background-image: url(../websiteImages/Places-folder-orange-icon.png);
+    background-size: 35px 35px;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    vertical-align: -26px;
+    border: 0;
+    background-repeat: no-repeat;
+}
+#make-portfolio {
+    background-image: url(../websiteImages/folder-flower-orange-icon.png);
+}
+#edit, #upload-pic {
+    background-image: url("../websiteImages/edit-icon-orange.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    border: 0;
+    width: 35px;
+    height: 35px;
+    vertical-align: -5px;
+    margin-left: 5px;
+}
+#upload-pic {
+    background-image: url(../websiteImages/hdr_ftp_icon.png);
+    background-size: 45px 45px;
+    margin-left: -50px;
+    vertical-align: -22px;
+    width: 50px;
+    height: 50px;
+}
+#remove {
+    vertical-align: 5px;
+    width: 15px;
+    height: 15px;
+}
+textarea {
+    height: auto;
+    width: 600px;
+    color: black;
+}
+#wrapper form#edit-file {
+    display: none;
+    margin: 10px 12%;
+}
+#outer {
+    background: #272727;
+    width: 70%;
+    height: 80px;
+    opacity: 0.9;
+    position: absolute;
+    margin: -35px 205px;
+}
+
+.project-name-image {
+    width: 25px;
+    height: 25px;
+    vertical-align: -8px;
+    padding-right: 7px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+#portfolio ul{
+    width: 2000px;
+}
+#wrapper #portfolio {
+    overflow: hidden;
+    margin: 20px auto;
+}
+.upload-file {
+    margin: 30px 0;
+    display: inline-block;
+    margin-left: 63%;
+}
+.upload-file input[type="submit"] {
+    margin-left: -45px;
+}
+h3, h2 {
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+    margin-bottom: 15px;
+}
+#wrapper .project-portfolio {
+    margin-left: 40px;
+}
+#wrapper form.func {
+    display: none;
+    margin: 0 350px;
+    width: 50%;
+}
+h2 {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#select-option {
+    background: linear-gradient(#fe9019, #ba3006, #f2560f, #fe9019);
+    width: 50%;
+    margin: 0px auto;
+    margin-bottom: 35px;
+    padding: 5px;
+}
+#select-option li {
+    margin-left: 20%;
+    display: inline-block;
+}
+#select-option li:hover {
+    cursor: pointer;
+}
+#wrapper #errors {
+    background-color: red;
+    width: 60%;
+    height: 50px;
+    display: inline-block;
+    margin: 20px 20%;
+    padding: 5px;
+    text-align: center;
+}
+#pic {
+    width: 700px;
+    height:700px;
+    margin: 30px 14%;
+    margin-top: 50px;
+}
+pre {
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+button {
+    background-image: url('../websiteImages/edit-icon-orange.png');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color:white;
+    width: 45px;
+    height: 30px;
+    margin: 10px;
+    border: 0;
+    padding: 5px 35px;
+}
+#show-make-folder-form, #show-upload-file-form {
+    margin:  10px auto;
+}
+#portfolio-home {
+    margin-left: 12%;
+}
+#wrapper > div.carousel > div.buttonNav {
+    margin: -10px 40%;
+}
